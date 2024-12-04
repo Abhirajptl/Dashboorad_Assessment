@@ -1,0 +1,25 @@
+.support-tracker-card {
+    background-color: #292b2f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgb(37, 37, 76);;
+  }
+  
+  .support-tracker-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .support-tracker-card .tracker-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .support-tracker-card .progress {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  

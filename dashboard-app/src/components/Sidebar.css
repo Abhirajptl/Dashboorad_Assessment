@@ -1,0 +1,55 @@
+.sidebar {
+    background-color: #1f1d2b;
+    width: 240px;
+    height: 100vh;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .menu, .apps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li, .apps li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #9e9ea7;
+  }
+  
+  .menu li.active {
+    background-color: #343442;
+    color: #fff;
+  }
+  
+  .menu li:hover {
+    background-color: #343442;
+    color: #fff;
+  }
+
+  /* Existing styles for Sidebar */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .sidebar ul li {
+    text-align: center;
+  }
+}
+
+  

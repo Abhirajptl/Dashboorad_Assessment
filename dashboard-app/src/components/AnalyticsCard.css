@@ -1,0 +1,26 @@
+.analytics-card {
+    background-color: #292b2f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgb(37, 37, 76);
+  }
+  
+  .analytics-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .analytics-card .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  .abc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .xyz img{
+    border-radius: 5px;
+   }
+  

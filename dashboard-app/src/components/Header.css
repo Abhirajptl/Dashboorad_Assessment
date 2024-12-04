@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c2236;
+  color: white;
+  border-bottom: 1px solid #3b3f5c;
+}
+
+.search {
+  background-color: #3b3f5c;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: white;
+  font-size: 0.9rem;
+  width: 50%;
+}
+
+.search::placeholder {
+  color: #a3a3a3;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.notification-icon {
+  position: relative;
+}
+
+.notification-icon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 8px;
+  height: 8px;
+  background-color: #ff3d71;
+  border-radius: 50%;
+}
+
+.language-selector {
+  background-color: #3b3f5c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.language-selector option {
+  background-color: #3b3f5c;
+  color: white;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #3b3f5c;
+  cursor: pointer;
+}
+
+/* Existing styles for Header */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header .search {
+    width: 70%;
+  }
+
+  .header-icons {
+    gap: 10px;
+  }
+}

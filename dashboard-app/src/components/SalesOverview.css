@@ -1,0 +1,69 @@
+.sales-overview-card {
+    background-color: rgb(37, 37, 76);;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sales-overview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sales-overview-header h3 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .sales-growth {
+    font-size: 0.9rem;
+    color: #4caf50;
+  }
+  
+  .sales-overview-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .sales-overview-content p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+  }
+  
+  .sales-breakdown {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .sales-metric {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .sales-metric span {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+  }
+  
+  .sales-metric h4 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .sales-metric p {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+  }
+  
+  .sales-divider {
+    width: 1px;
+    height: 50px;
+    background-color: #4b4b67;
+    margin: 0 20px;
+  }
+  

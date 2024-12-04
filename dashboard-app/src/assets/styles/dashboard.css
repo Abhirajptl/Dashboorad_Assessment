@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1b1f;
+    color: #fff;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #20232a;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    color: #9ba1a6;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #18191c;
+  }
+  
+  .card {
+    background-color: #292b2f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .analytics {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stats div {
+    margin: 10px 0;
+  }
+  
+  .progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  

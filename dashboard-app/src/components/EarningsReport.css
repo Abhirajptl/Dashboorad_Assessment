@@ -1,0 +1,22 @@
+.earnings-card {
+    background-color: #292b2f;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .earnings-card h3 {
+    margin: 0 0 10px;
+  }
+  
+  .earnings-card .stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(77, 73, 73);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  

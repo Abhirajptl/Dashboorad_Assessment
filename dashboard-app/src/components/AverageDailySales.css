@@ -1,0 +1,28 @@
+.average-daily-sales {
+  background-color: #292b2f;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sales-chart .chart-placeholder {
+  background-color: #444b56;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.sales-chart img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-left: 120px;
+}
+
